@@ -15,6 +15,15 @@ import { ProductCardComponent } from "./product-card/product-card.component";
   styles: ``
 })
 export class ProductsListComponent {
+
+  // The code below reflects the way I test adding the products from a public API
+
+  // async ngOnInit() {
+  //   const res = await fetch('https://fakestoreapi.com/products/category/electronics');
+  //   const data = await res.json();
+  //   this.products.set(data);
+  // }
+
   products = signal<Product[]>([
     {
       id: 1,
