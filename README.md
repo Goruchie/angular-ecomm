@@ -1,5 +1,7 @@
 # AngularEcomm
 
+This e-commerce application, built with Angular 19, utilizes Tailwind CSS for a modern and responsive design. Users can browse a product catalog with detailed stock and pricing information, add items to the shopping cart, and see a dynamically updated cart total, ensuring a smooth and interactive shopping experience.
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
 
 ## Development server
@@ -53,6 +55,17 @@ ng e2e
 ```
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Next Possible Features
+
+Here are some potential enhancements for future iterations of **AngularEcomm**:
+
+- **Implementing a Component Library** – Integrate Material Design or another component library for a more consistent UI.
+- **Loaders & Notifications** – Improve user experience with loading indicators and real-time notifications.
+- **Server-Side Integrations + Payments** – Enable backend integrations for payment processing and order management.
+- **Forms for Customer Info** – Implement structured forms for user details and checkout processes.
+
+These additions would enhance functionality and improve overall usability.
 
 ## Additional Resources
 
